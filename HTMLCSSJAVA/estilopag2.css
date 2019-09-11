@@ -1,0 +1,100 @@
+body{
+	background-color:#E4572E;
+	
+}
+header{
+	padding:3%;
+	background-color:#468189;
+	overflow: auto;
+	float: center;
+	
+}
+#imgcabecera{
+	width: 35%;
+	height: 15%;
+	float: right;
+	bottom: 7%;
+	margin: auto;
+	background: url("fondocabecera.jpg");	
+}
+#cab {
+	color: yellow;
+	position: left;
+}
+menu{
+	padding:3%;
+	background-color:#026C7C;
+	float:left;	
+	border-radius: 20px;
+	font-style:italic;
+}
+section{
+	padding:5%;
+	background-color:#9dbebb;
+	float:right;
+	width:70%;
+	height:100%;
+	border-radius: 20px;
+	margin-left:1%;		
+	margin-top:1%;
+	margin-bottom:1%;
+}
+footer {
+	background-color:#1A659E;
+	float:left;
+	width:100%;
+	height:5%;
+	margin-bottom:0.5%;
+	color: #7B2D26;
+	text-align:center;
+}
+footer img{
+	float:center;
+}
+.men li a {
+	width: 85%;
+	background-color: #EFF1C5;
+	color:#000;
+	text-decoration:none;
+	padding:5% 10%;
+	display:block;
+	border-width: thick;
+	border-style:outset;
+	border-color:black;
+	position: relative;
+	right: 20%;
+	bottom: 60%;
+}
+.men li a:hover {
+	background-color: #E4572E;
+}
+
+
+ul, ol{
+	list-style:none;
+}
+
+.cuadro {
+	height:45%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	align-items:center;
+}
+
+.cel {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 30px;
+	text-align: center;
+	width:40%;
+	height:100%;
+	margin: 2%;
+}
+
+.cel img {
+	height: 40%;
+	width: 40%;
+	vertical-align: middle;
+}

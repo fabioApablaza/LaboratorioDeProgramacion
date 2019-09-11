@@ -1,0 +1,77 @@
+body {
+	background-image: url("space2.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: 10% 10%; 
+	margin: 5%;}
+
+
+
+#cabecera {
+	height: 30%; width: 25% }
+
+#menu {
+	background-color:  #FFFFFF ; 
+	float: left; width:15%; height: 160%; opacity: 0.75;
+	border-radius: 20px;
+	color: blue;
+	background-image: url("es.jpg"); 
+}
+
+#titulomenu h2 {
+	position: relative;
+	bottom: 100%;
+	color:orange;
+}
+#contenido {
+	float: left; 
+	width:85%; 
+	height: 200%; 
+	background-color: #eaeded;
+	border-radius: 10px;}
+
+.catalogo {
+	width:25%; height:25%; 
+	float: left;
+	margin:2%;
+	border:thin;
+	padding:2em;
+	background: url("celular.jpg");
+	color:yellow;
+	font-size:150%;}
+
+footer{ 
+	background-color: #2E2C39;
+	border-radius: 10px;
+	color: yellow;
+	text-align:center;
+}
+footer a img{
+	float:left;
+	overflow:hidden;
+}
+
+
+
+.men li a {
+	width: 67%;
+	background-color: #000;
+	color:#FFF;
+	text-decoration:none;
+	padding:5% 10%;
+	display:block;
+	border-width: thick;
+	border-style:outset;
+	border-color:black;
+	position: relative;
+	right: 20%;
+	bottom: 60%;
+}
+.men li a:hover {
+	background-color: #5B4D7A;
+}
+
+
+ul, ol{
+	list-style:none;
+}
